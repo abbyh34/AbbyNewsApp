@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--News name style-->
+    <style name="news_name_style">
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/name_text_size</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Title style-->
+    <style name="title_list_item">
+        <item name="android:padding">@dimen/textViewPadding</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+    <!--Section style-->
+    <style name="section_list_item">
+        <item name="android:padding">@dimen/textViewPadding</item>
+        <item name="android:textColor">@color/section_text_color</item>
+        <item name="android:textSize">@dimen/section_text_size</item>
+    </style>
+
+    <!--Date style-->
+    <style name="date_list_item">
+        <item name="android:padding">@dimen/textViewPadding</item>
+        <item name="android:textColor">@color/date_text_color</item>
+        <item name="android:textSize">@dimen/date_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+    </style>
+
+    <!--Author style-->
+    <style name="author_list_item">
+        <item name="android:padding">@dimen/textViewPadding</item>
+        <item name="android:textColor">@color/author_text_color</item>
+        <item name="android:textSize">@dimen/author_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+    </style>
+
+</resources>

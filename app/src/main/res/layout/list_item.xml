@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/titleView_height"
+            style="@style/title_list_item"
+            android:maxLines="1"
+            android:gravity="bottom"
+            android:ellipsize="end"
+            tools:text="Title"/>
+
+        <TextView android:id="@+id/section"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewHeight"
+            style="@style/section_list_item"
+            android:gravity="top"
+            android:maxLines="1"
+            tools:text="Section"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewHeight"
+            style="@style/date_list_item"
+            android:maxLines="1"
+            android:gravity="bottom"
+            tools:text="Date"/>
+
+        <TextView android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewHeight"
+            style="@style/author_list_item"
+            android:gravity="top"
+            android:maxLines="1"
+            tools:text="Author"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Abby News 24</string>
+
+    <!--new article state-->
+    <string name="no_news_articles">Check back later, news articles soon!</string>
+    <string name="no_internet_connection">Sorry no internet connection.</string>
+
+    <!--News name-->
+    <string name="newsName">Top News</string>
+
+    <!--menu strings-->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!--Strings for editions-->
+    <string name="settings_editions_label">Edition</string>
+    <string name="settings_editions_key" translatable="false">editions</string>
+    <string name="settings_editions_default">US</string>
+
+    <!--Strings for array values-->
+    <string name="editions_us_key">us</string>
+    <string name="editions_uk_key">uk</string>
+    <string name="editions_au_key">au</string>
+
+    <!--Editions-->
+    <string name="settings_editions_us">@string/settings_editions_default</string>
+    <string name="settings_editions_uk">UK</string>
+    <string name="settings_editions_au">AU</string>
+
+    <!--Strings for order by-->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">newest</string>
+
+    <!-- Label for order-by newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+</resources>
